@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
-
+from PyQt5.QtGui import QIcon
 
 class MyApp(QWidget):
 
@@ -10,7 +10,8 @@ class MyApp(QWidget):
 
     def initUI(self):
         self.setWindowTitle('자리 바꾸기 프로그램')
-        self.move(300, 300)
+        self.setWindowIcon(QIcon('20220822_221353.png'))
+        self.setGeometry(300,300,300,300)
         self.resize(1080,540)
         self.show()
 
