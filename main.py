@@ -9,7 +9,7 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('My First Application')
+        self.setWindowTitle('자리 바꾸기 프로그램')
         self.move(300, 300)
         self.resize(1080,540)
         self.show()
